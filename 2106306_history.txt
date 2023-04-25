@@ -1,0 +1,353 @@
+    1  git --version
+    2  git config --global user.name Anubhab-03
+    3  git config --global user.email anu0601ch@gmail.com
+    4  ssh-keygen -t RSA
+    5  ls -l
+    6  ls -la
+    7  cd .ssh
+    8  ls
+    9  cat id_rsa.pub 
+   10  git clone git@github.com:<your GitHub username>/cs102-git-essentials.git
+   11  cd ..
+   12  mkdir test2
+   13  cd test2
+   14  git init
+   15  touch README.md
+   16  git commit
+   17  git add README.md 
+   18  git commit
+   19  git commit -m "Initial commit"
+   20  git remote add origin git@github.com:Anubhab-03/mancurad.git
+   21  git branch -M main
+   22  git push origin main
+   23  cd ..
+   24  test2
+   25  cd test2/
+   26  vim markdown.md
+   27  git config --global user.name CR7git
+   28  git config --global user.email anubhab.chakraborty.21063@iitgoa.ac.in
+   29  ssh-keygen -t RSA
+   30  cd .ssh
+   31  cd ..
+   32  cd .ssh
+   33  ls
+   34  cd id_rsa.pub
+   35  cat id_rsa.pub
+   36  cd ..
+   37  mkdir web
+   38  cd web
+   39  git clone git@github.com:CR7git.github.io
+   40  git clone git@github.com:CR7git/CR7git.github.io
+   41  cd CR7git.github.io/
+   42  ls
+   43  vim README.md
+   44  move ./Documents/siuu.jpg ./
+   45  mv ./Documents/siuu.jpg ./
+   46  mv ~/Documents/siuu.jpg ./
+   47  mv /Documents/siuu.jpg ./
+   48  git add ./
+   49  git commit -m "Initial commit"
+   50  git push origin main
+   51  git pull origin main
+   52  vim README.md 
+   53  git branch
+   54  git branch newbranch
+   55  git branch
+   56  git lookup newbranch
+   57  git lookat newbranch
+   58  git checkout newbranch
+   59  vim md.txt
+   60  cat md.txt 
+   61  git add ./md.txt
+   62  git commit -m "ANother commit"
+   63  git push origin newbranch
+   64  checkout main
+   65  git checkout main
+   66  git merge main newbranch
+   67  git branch
+   68  git status
+   69  ls
+   70  git push origin main
+   71  vim file1.txt
+   72  vim file2.txt
+   73  git add ./
+   74  git status
+   75  git reset file2.txt
+   76  git status
+   77  git commit -m "fIRSE COMMIT!"
+   78  git add file2.txt 
+   79  git commit --ammend
+   80  git commit --amend
+   81  git status
+   82  git push origin main
+   83  cd ..
+   84  cd .
+   85  cd..
+   86  cd ..
+   87  mkdir cs102-git-essentials
+   88  cd cs102-git-essentials/
+   89  git clone git@github.com:Cr7git/cs102-git-essentials
+   90  touch cs102.txt
+   91  touch cs102-lecture-notes.txt
+   92  git add ./
+   93  cd  cs102-git-essentials/
+   94  touch cs102-lecture-notes.txt
+   95  git add ./
+   96  git commit -m "local:added cs102 lecture notes "
+   97  git push origin main
+   98  git branch
+   99  git push origin master
+  100  git pull origin master
+  101  vim cs102-lecture-notes.txt 
+  102  git add ./
+  103  git commit -m "Changed again"
+  104  git push origin master
+  105  cd ..
+  106  cd ~?
+  107  cd ~/
+  108  logout
+  109  ls
+  110  mkdir bash_files
+  111  ls
+  112  cd bash_files/
+  113  ls
+  114  vim anu.sh 
+  115  vim doublefor.sh 
+  116  vim anu.sh 
+  117  cd .
+  118  cd.
+  119  cd
+  120  cd bash_files/
+  121  users
+  122  vim test2.sh 
+  123  vim file.sh 
+  124  vims 
+  125  vim sum.sh 
+  126  vim doublefor.sh 
+  127  vim anu.sh
+  128  logout
+  129  history
+  130  clear
+  131  git clone git@github.com:CR7git/2106306-lab-exam
+  132  vim README.md
+  133  git add ./
+  134  git add/.
+  135  git add README.md
+  136  ls
+  137  cd 2106306-lab-exam/
+  138  vim README.md
+  139  git add /.
+  140  git add ./
+  141  git commit -m "New commit"
+  142  git push origin main
+  143  cd
+  144  git clone git@github.com:tusharlone/cs102-git-essentials
+  145  ls
+  146  rm -r cs102-git-essentials/
+  147  cp cs102-git-essentials/ CS102
+  148  cp -r cs102-git-essentials/ CS102
+  149  ls
+  150  mv cs102-git-essentials/ CS102test
+  151  ls
+  152  git clone git@github.com:tusharlone/cs102-git-essentials
+  153  cd cs102-git-essentials/
+  154  git pull origin main
+  155  ls
+  156  cp *.csv ~/2106306-lab-exam/
+  157  cd
+  158  cd 2106306-lab-exam/
+  159  ls
+  160  vim total.sh
+  161  bash total.sh ca_500.csv 
+  162  cat ca_500.csv 
+  163  vim total.sh 
+  164  ls
+  165  bash total.sh us_500.csv 
+  166  vim first_line
+  167  rm first_line 
+  168  vim first_line.sh
+  169  history
+  170  clear
+  171  ls
+  172  vim total.sh
+  173  vim first_line.sh 
+  174  bash first_line.sh ca_500.csv 
+  175  vim first_line.sh 
+  176  bash first_line.sh ca_500.csv 
+  177  vim first_line.sh 
+  178  rm first_line.sh 
+  179  head -n 1 ca_500.csv 
+  180  head -n 1 us_500.csv 
+  181  grep -iw "Montreal" ca_500.csv 
+  182  touch ca_city_Montreal.csv
+  183  vim ca_city_Montreal.csv 
+  184  grep -iw "Montreal" ca_500.csv >> ca_city_Montreal.csv 
+  185  cat ca_city_Montreal.csv 
+  186  head -n 1 cs_500.csv >> ca_city_Montreal.csv 
+  187  head -n 1 ca_500.csv >> ca_city_Montreal.csv 
+  188  head -n 1 us_500.csv >> ca_city_Montreal.csv 
+  189  vim 2106306_data_filter.sh
+  190  bash 2106306_data_filter.sh us_500.csv city Miami
+  191  cat us_500.csv 
+  192  clear
+  193  cat us_city_Miami.csv
+  194  ls
+  195  vim 2106306_data_filter.sh 
+  196  ls
+  197  vim 2106306_data_filter.sh 
+  198  ls
+  199  bash 2106306_data_filter.sh 
+  200  vim 2106306_data_filter.sh 
+  201  bash 2106306_data_filter.sh us_500.csv city Miami
+  202  ls
+  203  cat us_city_Miami.csv 
+  204  vim 2106306_data_filter.sh 
+  205  bash 2106306_data_filter.sh us_500.csv city Miami
+  206  vim 2106306_data_filter.sh 
+  207  head --help
+  208  clear
+  209  ls
+  210  vim 2106306_data_filter.sh 
+  211  bash 2106306_data_filter.sh us_500.csv city Miami
+  212  vim 2106306_data_filter.sh 
+  213  rm us_city_Miami.csv 
+  214  bash 2106306_data_filter.sh us_500.csv city Miami
+  215  vim 2106306_data_filter.sh 
+  216  bash 2106306_data_filter.sh us_500.csv city Miami
+  217  vim 2106306_data_filter.sh 
+  218  bash 2106306_data_filter.sh us_500.csv city Miami
+  219  ls
+  220  rm us+_+city+_+Miami.csv 
+  221  vim 2106306_data_filter.sh 
+  222  bash 2106306_data_filter.sh us_500.csv city Miami
+  223  ls
+  224  ls us_Miami.csv 
+  225  rm us_Miami.csv 
+  226  vim 2106306_data_filter.sh 
+  227  bash 2106306_data_filter.sh us_500.csv city Miami
+  228  ls
+  229  vim 2106306_data_filter.sh 
+  230  ls
+  231  vim 2106306_data_filter.sh 
+  232  bash 2106306_data_filter.sh us_500.csv city Miami
+  233  ls
+  234  vim 2106306_data_filter.sh 
+  235  bash 2106306_data_filter.sh us_500.csv city Miami
+  236  ls
+  237  rm us+_+city+_+Miami.csv 
+  238  rm us_city+_Miami.csv 
+  239  vim 2106306_data_filter.sh 
+  240  bash 2106306_data_filter.sh us_500.csv city Miami
+  241  ls
+  242  vim 2106306_data_filter.sh 
+  243  bash 2106306_data_filter.sh us_500.csv city Miami
+  244  cat us_city_Miami.csv 
+  245  vim 2106306_data_filter.sh 
+  246  cat us_city_Miami.csv 
+  247  vim 2106306_data_filter.sh 
+  248  bash 2106306_data_filter.sh us_500.csv city Miami
+  249  cat us_city_Miami.csv 
+  250  rm us_city_Miami.csv 
+  251  bash 2106306_data_filter.sh us_500.csv city Miami
+  252  cat us_city_Miami.csv 
+  253  vim 21
+  254  vim 2106306_data_filter.sh 
+  255  rm us_city_Miami.csv 
+  256  bash 2106306_data_filter.sh us_500.csv city Miami
+  257  cat us_city_Miami.csv 
+  258  vim 2106306_data_filter.sh 
+  259  rm us_city_Miami.csv 
+  260  bash 2106306_data_filter.sh us_500.csv city Miami
+  261  vim 2106306_data_filter.sh 
+  262  bash 2106306_data_filter.sh us_500.csv city Miami
+  263  cat us_city_Miami.csv 
+  264  vim 2106306_data_filter.sh 
+  265  rm us_city_Miami.csv 
+  266  bash 2106306_data_filter.sh us_500.csv city Miami
+  267  cat us_city_Miami.csv 
+  268  vim 2106306_data_filter.sh 
+  269  rm us_city_Miami.csv 
+  270  bash 2106306_data_filter.sh us_500.csv city Miami
+  271  cat us_city_Miami.csv 
+  272  vim 2106306_data_filter.sh 
+  273  cd
+  274  mkdir code
+  275  cd 2106306-lab-exam/
+  276  mv *.sh ~/code
+  277  cd
+  278  mkdir data
+  279  cd 2106306-lab-exam/
+  280  mv *.csv ~/code
+  281  cd
+  282  cd code
+  283  ls
+  284  rm +_++_+.csv 
+  285  ls
+  286  cd
+  287  cd data
+  288  ls
+  289  cd
+  290  cd code
+  291  rm *.csv
+  292  ls
+  293  cd
+  294  ls
+  295  cd code
+  296  ls
+  297  cd
+  298  cd 2106306-lab-exam/
+  299  cd
+  300  ls
+  301  cd cs102-git-essentials/
+  302  ls
+  303  cp *.csv ~/2106306-lab-exam/
+  304  cd
+  305  cd 2106306-lab-exam/
+  306  ls
+  307  head -1 cs_500.csv
+  308  head -1 ca_500.csv
+  309  head -1 ca_500.csv>>ca_city_Montreal.csv
+  310  ls
+  311  head -1 us_500.csv>>ca_city_Montreal.csv
+  312  wc -l ca_500.csv>>ca_city_Montreal.csv
+  313  ls
+  314  cat ca_ci
+  315  cat ca_city_Montreal.csv 
+  316  ls
+  317  cd 
+  318  cd code
+  319  ls
+  320  cp 2106306_data_filter.sh ~/2106306-lab-exam/
+  321  cd
+  322  cp 2106306-lab-exam/
+  323  cd 2106306-lab-exam/
+  324  ls
+  325  bash 2106306_data_filter.sh us_500.csv city Miami
+  326  ls
+  327  cd
+  328  ls
+  329  cd 2106306-lab-exam/
+  330  mv *.csv ~/data
+  331  cd data
+  332  cd
+  333  cd data
+  334  ls
+  335  cd 
+  336  cd 2106306-lab-exam/
+  337  mkdir code
+  338  mkdir data
+  339  cd
+  340  cd data
+  341  mv *.csv ~/2106306-lab-exam/data
+  342  cd
+  343  cd code
+  344  mv *.sh ~/2106306-lab-exam/code
+  345  cd
+  346  cd 2106306-lab-exam/
+  347  ls
+  348  cd code/
+  349  ls
+  350  cd ..
+  351  git add /.
+  352  git add ./
+  353  history>>2106306_history.txt
